@@ -50,10 +50,9 @@ text_threads = input("\033[1m>>>MinusFive-DDoS >>> | Threads: \033[0m")
 threads = int(text_threads)
 text_timeout = in\033[4mput("$MinusFive-DDoS >>> | Timeout: \033[0m")
 timeout = int(text_timeout)
-text_keepattack = input(
-    "\033[96m>>>>MinusFive-DDoS >>> | Keep Attack ?(Keep sending requestes even if the site is down | Default: False): \033[0m")
+text_keepattack = input("\033[96m>>>>MinusFive-DDoS >>> | Keep Attack ?(Keep sending requestes even if the site is down | Default: False): \033[0m")
 keepAttack = str(text_keepattack)
-print(Fore.GREEN + "\033[96m>>>>MinusFive-DDoS >>> | Attack has been started for: \033[0m" + url)
+print("\033[96m>>>>MinusFive-DDoS >>> | Attack has been started for: \033[0m" + url)
 
 downMsgSent = False
 
