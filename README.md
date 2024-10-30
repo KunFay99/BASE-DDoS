@@ -7,4 +7,8 @@
    - apt-get upgrade -y
    - apt-get install python3 -y
    - apt-get install git
-   - git clone 
+   - git clone https://github.com/KunFay99/MinusFife-DDoS.git
+   - cd MinusFife-DDoS
+   - git pull
+   - pip install -r requirements.txt
+   - python3 MinusFife-DDoS.py
