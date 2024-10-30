@@ -39,13 +39,13 @@ print("\033[91m||   S N I P E R   E L I T E   W I T   P A L E S T I N A   || \03
 print("\033[91m||                                                         || \033[0m")
 print("\033[91m||   B I R U H  B I D A M  N A F D I K A  Y A  A Q S H A   || \033[0m")
 print("\033[93m||======= B A S E =========================================== \033[0m")
+print("\033[4m________________________________________________________________\033[0m
 
-
-text_url = input("\033[92m$MinusFive-DDoS >>> | Website URL (http://website.com): \033[0m")
+text_url = input("\033[92m>>MinusFive-DDoS >>> | Website URL (http://website.com): \033[0m")
 url = str(text_url)
-text_threads = input("$MinusFive-DDoS >>> | Threads: ")
+text_threads = input("\033[1m>>MinusFive-DDoS >>> | Threads: \033[0m")
 threads = int(text_threads)
-text_timeout = input("$MinusFive-DDoS >>> | Timeout: ")
+text_timeout = in\033[4mput("$MinusFive-DDoS >>> | Timeout: \033[0m")
 timeout = int(text_timeout)
 text_keepattack = input(
     "$MinusFive-DDoS >>> | Keep Attack ?(Keep sending requestes even if the site is down | Default: False): ")
