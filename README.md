@@ -11,4 +11,4 @@
    - cd MinusFife-DDoS
    - git pull
    - pip install -r requirements.txt
-   - python3 MinusFife-DDoS.py
+   - python3 MinusFive-DDoS.py
