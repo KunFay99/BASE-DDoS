@@ -1,7 +1,8 @@
-# _*_ coding: ufs-8 _*_
-from os import X_OK
+#!usr/bin/python
+import os
+import socket
 from colorama import init
-from colorama import ASCII, Back, Style
+from colorama import Style
 import requests
 import random
 import threading
@@ -18,7 +19,7 @@ class bcolors:
     M = '\033[4m'
 
 os.system("Clear")
-print(" ")                                           \033[0m")
+print(" ")                                              
 print("\033[95m                                         \033[0m")
 print("\033[95m                    @      @             \033[0m")
 print("\033[95m                    @      @             \033[0m")
@@ -26,21 +27,21 @@ print("\033[95m     @      @  @  @ @ @    @  @ @        \033[0m")
 print("\033[94m     @  @   @  @    ©      @ @   @       \033[0m")
 print("\033[94m     ©  ©   ©  ©    ©   ©  ©     @       \033[0m")
 print("\033[94m       ©  ©    ©     © ©   ©     ©       \033[0m")
-print("\033[96m                    @                                   \033[0m")
-print("\033[96m                    @                                   \033[0m")
-print("\033[93m           @ @ @ @  @   @ @    © © ©  @ @ @ @   @ @ @   \033[0m")
-print("\033[93m          @      @  @ ©    @  @    ©      @    @    @   \033[0m")
-print("\033[93m          @      @  @      ©  @    ©    @      @    ©   \033[0m")
-print("\033[92m           © © © ©  ©      ©   © © ®  © © © ©   © © ©   \033[0m")
-print("\033[92m                 ©                                           \033[0m")
-print("\033[92m            © ® ©                                            \033[0m")
-print("\033[91m                                                            \033[0m")
-print("\033[1m                                                            \033[0m")
-print("\033[4m                                                            \033[0m")
+print("\033[96m                                                              \033[0m")
+print("\033[96m       @ @ @ @  @     @     @        @ @ @     @              \033[0m")
+print("\033[96m      @         @     @    @ @           @    @ @             \033[0m")
+print("\033[96m      @  @ @ @  @ @ @ @   @   @          @   @   @            \033[0m")
+print("\033[93m      ©      ©  ©     ©  © @ @ ©   ©     ©  © © © ©           \033[0m")
+print("\033[93m       © © © ©  ©     © ©       ©   © © ©  ©       ©          \033[0m")
+print("\033[93m                                                              \033[0m")
+print("\033[93m||==================================== by: ZhanAhmad ======|| \033[0m")
+print("\033[91m||   S N I P E R   E L I T E   W I T   P A L E S T I N A   || \033[0m")
+print("\033[91m||                                                         || \033[0m")
+print("\033[91m||   B I R U H  B I D A M  N A F D I K A  Y A  A Q S H A   || \033[0m")
+print("\033[93m||======= B A S E =========================================== \033[0m")
 
 
-
-text_url = input("$MinusFive-DDoS >>> | Website URL (http://website.com): ")
+text_url = input("\033[92m$MinusFive-DDoS >>> | Website URL (http://website.com): \033[0m")
 url = str(text_url)
 text_threads = input("$MinusFive-DDoS >>> | Threads: ")
 threads = int(text_threads)
