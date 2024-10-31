@@ -21,8 +21,8 @@ def ascii_art_sniperelite():
 \033[1;34m             
 \033[1;31m                     @
 \033[1;31m                   @ @ @     @ @ @      @ @ @   @   @
-\033[1;35m                     ©      @      @  @     @  @  @  @
-\033[1;35m                     ©   ©  @ © © ®   ©     ©  ©  ©  ®
+\033[1;31m                     ©      @      @  @     @  @  @  @
+\033[1;36m                     ©   ©  @ © © ®   ©     ©  ©  ©  ®
 \033[1;36m                      ® ©    © © ©      © ® ©  ©     ©
 \033[1;34m||===========================✓By: ZHANAHMAD ==================   
 \033[1;35m||  B R I G A D E  A T T A C K E R  S N I P E R  E L I T E   ||
@@ -31,7 +31,7 @@ def ascii_art_sniperelite():
 \033[1;31m||   B I R R U H  B I D A M N A F D I K A  Y A  A Q S H A    ||
 \033[1;31m||========√B A S E ============================================    
 """)
-
+print(""\033[31m_________________________________________________________\033[0m")
 # Password authentication function
 def authenticate():
     password = "BASe"  # The password to access the tool
