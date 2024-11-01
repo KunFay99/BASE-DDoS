@@ -3,7 +3,7 @@ import threading
 import time
 import getpass
 import os
-
+import colorama
 # CLEAR
 def clear():
     os.system('clear')
