@@ -9,6 +9,5 @@
    - apt-get install git
    - git clone https://github.com/KunFay99/MinusFife-DDoS.git
    - cd MinusFife-DDoS
-   - git pull
    - pip install -r requirements.txt
    - python3 MinusFive-DDoS.py
