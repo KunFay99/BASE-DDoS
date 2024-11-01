@@ -8,8 +8,8 @@ import os
 def clear():
     os.system('clear')
 
-# Colored ASCII Art for "sniperelite" using '|_' style
-def ascii_art_sniperelite():
+# Colored ASCII Art for "MinusFive-DDoS" using '|_' style
+def ascii_art_MiinusFive-DDoS():
     print("""
 \033[1;31m       @@ @ @ @          @@       @@ @ @     @@ @ @ @ 
 \033[1;31m       @@       @       @@ ©     @@          @@
