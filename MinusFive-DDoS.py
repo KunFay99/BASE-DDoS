@@ -9,7 +9,7 @@ def clear():
     os.system('clear')
 
 # Colored ASCII Art for "MinusFive" using '|_' style
-def ascii_art_MiinusFive():
+def ascii_art_MinusFive():
     print("""
 \033[1;31m       @@ @ @ @          @@       @@ @ @     @@ @ @ @ 
 \033[1;31m       @@       @       @@ ©     @@          @@
