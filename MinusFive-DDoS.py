@@ -65,7 +65,7 @@ def slowloris(target, port, num_threads):
 if __name__ == "__main__":
     clear()  
     # Clear the screen before showing anything
-    ascii_art_sniperelite()  # Display the colorful ASCII art for "sniperelite"
+    ascii_art_MinusFive()  # Display the colorful ASCII art for "MinusFive"
 
     authenticate()  # Authenticate after displaying ASCII art
 
