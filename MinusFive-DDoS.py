@@ -77,6 +77,6 @@ if __name__ == "__main__":
 
     print(f"\033[1;31mThank you for using my tool\033[0m")
 
-    print(f"\033[1;31mmy github id: github.com/kafulkaff99\033[0m")
+    print(f"\033[1;31mmy github id: https://github.com/KunFay99/MinusFife-DDoS\033[0m")
 
     print(f"\033[1;31mpress ctrl + z\033[0m")
