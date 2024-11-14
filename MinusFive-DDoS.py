@@ -25,15 +25,14 @@ def ascii_art_MinusFive():
 \033[1;31m                       @ @ @    @    @   @    @ @ @
 \033[1;36m                       ©        ©     © ©     ©
 \033[1;36m                       ©        ©      ©      © © © ©
-\033[1;36m                       °        °      °      ° ° ° °
-\033[1;36m                       •        •      •      • • • •
+\033[1;36m                                            
 \033[1;34m===========================✓By:Za'99 ===========================  
-\033[1;35m           THIS SCRIPT IS FOR ATTACKING UDP   
-\033[1;35m                 we are with  PALESTINE                   
-\033[1;34m                    Design By: Za'99
-\033[1;34m                         ——oO0Oo——
-\033[1;31m================================================================    
-print(""\033[31m__________________________________________________________________""")
+\033[1;35m              THIS SCRIPT IS FOR ATTACKING UDP   
+\033[1;35m                    we are with PALESTINE                   
+\033[1;34m                       Design By: Za'99
+\033[1;34m                           ——oO0Oo——
+\033[1;34m================================================================    
+print(""\033[31m——————————————————————————————————————————————————————————""")
 # Password authentication function
 def authenticate():
     password = "BASe"  # The password to access the tool
