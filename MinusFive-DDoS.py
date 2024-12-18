@@ -4,35 +4,21 @@ import time
 import getpass
 import os
 import time
+import fade
 
-# CLEAR
-def clear():
-    os.system('clear')
+attemps = 0
+os.system("clear")
+logo = """
+      _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ _/
+     _/      _/     _/     _/   _/           _/
+    _/      _/    _/       _/  _/           _/
+   _/ _/ _/      _/       _/     _/        _/
+  _/       _/   _/       _/         _/    _/ _/ _/
+ _/        _/  _/ _/ _/ _/           _/  _/
+_/ _/ _/ _/   _/       _/    _/ _/ _/   _/ _/ _/ _/
 
-# Colored ASCII Art for "MinusFive" using '|_' style
-def ascii_art_MinusFive():
-    print("""
-\033[1;31m   @@   @    °@  @@   @    @@    @    @@ @
-\033[1;31m  @@  @  @   @@  @@ @  @   @@    @   @@
-\033[1;34m  @@  @  @   @@  @@    @   @@    @    @@
-\033[1;34m  @@  @  @   @@  @@    @   @@    @     @@ 
-\033[1;36m  ©©  @  ©   ©©  ©©    ©   ©©    ©      ©©
-\033[1;36m  ©©     ©   ©©  ©©    ©    ©©  ©      ©©
-\033[1;35m  °°     °   °°  °°    °     °°°     °°
-\033[1;35m   °     °    °   °    °      °    °  
-\033[1;31m                         @ @ @ @  @  @       @  @ @ @ @
-\033[1;31m                         @        @   @     @   @
-\033[1;31m                         @ @ @    @    @   @    @ @ @
-\033[1;36m                         ©        ©     © ©     ©
-\033[1;36m                         ©        ©      ©      © © © ©
-\033[1;36m                                            
-\033[1;34m================================================================  
-\033[1;35m              THIS SCRIPT IS FOR ATTACKING UDP   
-\033[1;35m                    we are with PALESTINE                   
-\033[1;34m                       Design By: Za'99
-\033[1;34m                           ——oO0Oo——
-\033[1;34m================================================================    
-print(""\033[31m——————————————————————————————————————————————————————————""")
+"""
+
 # Password authentication function
 def authenticate():
     password = "BASe"  # The password to access the tool
