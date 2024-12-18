@@ -1,23 +1,35 @@
-import socket
-import threading
-import time
-import getpass
-import os
-import time
-import fade
+!/usr/bin/python3
+# -*- coding: utf-8  -*-
 
-attemps = 0
-os.system("clear")
-logo = """
-      _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ _/
-     _/      _/     _/     _/   _/           _/
-    _/      _/    _/       _/  _/           _/
-   _/ _/ _/      _/       _/     _/        _/
-  _/       _/   _/       _/         _/    _/ _/ _/
- _/        _/  _/ _/ _/ _/           _/  _/
-_/ _/ _/ _/   _/       _/    _/ _/ _/   _/ _/ _/ _/
+import requests as r, os, threading, random, click, fake_headers
+from threading import Thread
+from colorama import Fore, Style, Back
+from fake_headers import Headers
 
-"""
+def clear(): 
+	if os.name == 'nt': 
+		os.system('cls') 
+	else: 
+		os.system('clear')
+
+def logo():
+
+# Colored ASCII Art for "sniperelite" using '|_' style
+def ascii_art_sniperelite():
+print("")
+"\033[31m         _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ \033[0m")
+"\033[31m        _/      _/     _/     _/   _/           _/        \033[0m")
+"\033[31m       _/      _/    _/       _/  _/           _/         \033[0m")     
+"\033[31m      _/ _/ _/      _/       _/     _/        _/           \033[0m")
+"\033[37m     _/       _/   _/       _/         _/    _/ _/ _/      \033[0m")
+"\033[37m    _/        _/  _/ _/ _/ _/           _/  _/             \033[0m")
+"\033[37m   _/ _/ _/ _/   _/       _/    _/ _/ _/   _/ _/ _/ _/     \033[0m")
+"\033[96m╔════════════════════════════════════════════════╗\033[0m")
+"\033[96m║\033[34m           BRIGADE ATTACKER SNIPER ELITE \033[96m║\033[0m")
+"\033[96m║\033[33m                  INTERNAL SCRIPT        \033[96m║\033[0m")
+"\033[96m║\033[32m                     By: KF'99           \033[96m║\033[0m")
+"\033[96m║\033[95m                      ——o0o——            \033[96m║\033[0m")
+"\033[96m╚════════════════════════════════════════════════\033[0m")
 
 # Password authentication function
 def authenticate():
@@ -69,3 +81,4 @@ if __name__ == "__main__":
     print(f"\033[1;31mmy github id: https://github.com/KunFay99/MinusFife-DDoS\033[0m")
 
     print(f"\033[1;31mpress ctrl + z\033[0m")
+
