@@ -7,8 +7,8 @@
    - apt-get upgrade -y
    - apt-get install python3 -y
    - apt-get install git
-   - git clone https://github.com/KunFay99/MinusFive-DDoS.git
-   - cd MinusFive-DDoS
+   - git clone https://github.com/KunFay99/BASE-DDoS.git
+   - cd BASE-DDoS
    - ls
    - python3 setup.py
-   - python3 MinusFive-DDoS.py
+   - python3 BASE-DDoS.py
