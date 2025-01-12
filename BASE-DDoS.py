@@ -14,8 +14,8 @@ def clear():
 
 def logo():
 
-# Colored ASCII Art for "sniperelite" using '|_' style
-   def ascii_art_sniperelite():
+# Colored ASCII Art for "base" using '|_' style
+   def ascii_art_base():
        print("""
 \033[31m         _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ 
 \033[31m        _/      _/     _/     _/   _/           _/        
@@ -66,7 +66,7 @@ def slowloris(target, port, num_threads):
 if __name__ == "__main__":
     clear()  
     # Clear the screen before showing anything
-    ascii_art_MinusFive()  # Display the colorful ASCII art for "MinusFive"
+    ascii_art_Base()  # Display the colorful ASCII art for "Base"
 
     authenticate()  # Authenticate after displaying ASCII art
 
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
     print(f"\033[1;31mThank you for using my tool\033[0m")
 
-    print(f"\033[1;31mmy github id: https://github.com/KunFay99/MinusFife-DDoS\033[0m")
+    print(f"\033[1;31mmy github id: https://github.com/KunFay99/Base-DDoS\033[0m")
 
     print(f"\033[1;31mpress ctrl + z\033[0m")
 
