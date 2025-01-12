@@ -4,7 +4,7 @@ import socket
 import getpass
 import requests as r, os, threading, random, click, fake_headers
 from threading import Thread
-from colorama import Fore, Style, Back
+from colorama import Fade
 from fake_headers import Headers
 
 def clear(): 
@@ -14,10 +14,6 @@ def clear():
 		os.system('clear')
 
 def logo():
-
-# Colored ASCII Art for "Base" using '|_' style
-   def ascii_art_Base():
-       print("""
 \033[31m         _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ 
 \033[31m        _/      _/     _/     _/   _/           _/        
 \033[31m       _/      _/    _/       _/  _/           _/             
