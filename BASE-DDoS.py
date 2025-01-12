@@ -14,8 +14,8 @@ def clear():
 
 def logo():
 
-# Colored ASCII Art for "base" using '|_' style
-   def ascii_art_base():
+# Colored ASCII Art for "Base" using '|_' style
+   def ascii_art_Base():
        print("""
 \033[31m         _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ 
 \033[31m        _/      _/     _/     _/   _/           _/        
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
     print(f"\033[1;31mThank you for using my tool\033[0m")
 
-    print(f"\033[1;31mmy github id: https://github.com/KunFay99/Base-DDoS\033[0m")
+    print(f"\033[1;31mmy github id: https://github.com/KunFay99/BASE-DDoS\033[0m")
 
     print(f"\033[1;31mpress ctrl + z\033[0m")
 
