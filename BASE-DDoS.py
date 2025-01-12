@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8  -*-
+import os
+import time
 import socket
 import getpass
 import requests as r, os, threading, random, click, fake_headers
@@ -13,7 +15,7 @@ def clear():
 	else: 
 		os.system('clear')
 
-def logo():
+def logo()"""
          _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ 
         _/      _/     _/     _/   _/           _/        
        _/      _/    _/       _/  _/           _/             
