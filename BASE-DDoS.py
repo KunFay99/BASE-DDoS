@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8  -*-
-
+import socket
+import getpass
 import requests as r, os, threading, random, click, fake_headers
 from threading import Thread
 from colorama import Fore, Style, Back
