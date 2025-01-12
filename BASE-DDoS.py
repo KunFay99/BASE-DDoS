@@ -16,7 +16,7 @@ def logo():
 
 # Colored ASCII Art for "sniperelite" using '|_' style
    def ascii_art_sniperelite():
-   print("""
+       print("""
 \033[31m         _/ _/ _/         _/ _/       _/ _/ _/   _/ _/ _/ 
 \033[31m        _/      _/     _/     _/   _/           _/        
 \033[31m       _/      _/    _/       _/  _/           _/             
