@@ -12,7 +12,7 @@ from fake_headers import Headers
 def clear(): 
 	if os.name == 'nt': 
 		os.system('cls') 
-	else: 
+	elif: 
 		os.system('clear')
 
 def logo()"""   
